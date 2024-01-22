@@ -2,6 +2,7 @@
 # Function returns a list of all indices in the string that have capital letters.
 
 # E.g, paremeter "HeLlO", should return [0, 2, 4]
+#**(both functions coded by me)**
 
 def capital_indexes(string): 
     indices =  [x for x, index in enumerate([ i.isupper() for i in list(string) ]) if index != False]
